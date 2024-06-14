@@ -9,3 +9,6 @@ a = []
 for i in range(n):
   a.append(input(f"Nhập ký tự thứ {i}: ")
   print("List đã tạo là : ", a)
+# in ra một list không có square brackets và comma:
+for i in range(n):
+  print(a[i], sep=" ", end=" ")
